@@ -1,0 +1,148 @@
+/* Write your CSS here */
+@media screen and (min-width:768px) {
+
+.bg-container {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    height: 100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .white-card-container{
+    background-color:#ffffff;
+    width:35%;
+    padding:30px;
+    border:0px solid;
+    border-radius:10px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .heading{
+    color: black;
+    font-family:'Lucida Sans';
+    font-size:40px;
+    font-weight:500px;
+    margin:0;
+  }
+  .count{
+    color: #160ce6;
+    font-family:'Lucida Sans';
+    font-size:50px;
+    font-weight:bold;
+  }
+  .buttons-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+  .increment-btn{
+    background-color: #09be54;
+    height:35px;
+    width:100px;
+    color:#ffffff;
+    font-family: 'Lucida Sans';
+    font-size:14px;
+    font-weight:bold;
+    border: 0px solid;
+    border-radius:6px;
+    cursor: pointer;
+    padding:5px;
+   margin-left:15px;
+  }
+
+  .decrement-btn{
+    background-color: #f65236;
+    height:35px;
+    width:100px;
+    color:#ffffff;
+    font-family: 'Lucida Sans';
+    font-size:14px;
+    font-weight:bold;
+    border: 0px solid;
+    border-radius:6px;
+    cursor: pointer;
+    padding:5px;
+    margin-right:15px;
+  }
+}
+
+/* small Devices>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Write your CSS here */
+@media screen and (max-width:767px) {
+
+  .bg-container {
+      background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+      height: 100vh;
+  
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    .white-card-container{
+      background-color:#ffffff;
+      width:55%;
+      padding:25px;
+      border:0px solid;
+      border-radius:10px;
+  
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    .heading{
+      color: black;
+      font-family:'Lucida Sans';
+      font-size:30px;
+      font-weight:500px;
+      margin:0;
+    }
+    .count{
+      color: #160ce6;
+      font-family:'Lucida Sans';
+      font-size:40px;
+      font-weight:bold;
+    }
+    .buttons-container{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+    }
+    .increment-btn{
+      background-color: #09be54;
+      height:25px;
+      width:80px;
+      color:#ffffff;
+      font-family: 'Lucida Sans';
+      font-size:10px;
+      font-weight:bold;
+      border: 0px solid;
+      border-radius:5px;
+      cursor: pointer;
+      padding:5px;
+     margin-left:15px;
+    }
+  
+    .decrement-btn{
+      background-color: #f65236;
+      height:25px;
+      width:80px;
+      color:#ffffff;
+      font-family: 'Lucida Sans';
+      font-size:10px;
+      font-weight:bold;
+      border: 0px solid;
+      border-radius:5px;
+      cursor: pointer;
+      padding:5px;
+      margin-right:10px;
+    }
+  }
